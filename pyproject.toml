@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "projeto01"
+version = "0.1.0"
+description = ""
+authors = ["athanio souza <athanio@ifpi.edu.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+pillow = "^10.2.0"
+mysqlclient = "^2.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
